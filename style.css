@@ -28,14 +28,41 @@ body{
 .search-box{
     position: relative;
 }
-.search-btn {
+.search-button {
     position: absolute;
     top: 0;
     right: 0;
     height: 100%;
 }
-.single-result{
+.card{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
+    margin-bottom: 20px;
 }
-
+.authorName{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.song-link{
+    background-color: #40a556;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+ 
+}
+#go-back{
+    color: #ffffff;
+    font-size: 1.2em;
+}
+#go-back:hover{
+    color: #c7c3c3;
+    font-size: 1.4em;
+}
+#clear{
+    color: #ffffff;
+    font-size: 1.2em;
+    display: none;
+    align-self: center;
+}
