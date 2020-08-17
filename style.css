@@ -52,17 +52,19 @@ body{
     text-decoration: none;
  
 }
-#go-back{
+#goBack{
     color: #ffffff;
     font-size: 1.2em;
 }
-#go-back:hover{
+#goBack:hover{
     color: #c7c3c3;
     font-size: 1.4em;
+}
+#clearDiv{
+    display: none;
 }
 #clear{
     color: #ffffff;
     font-size: 1.2em;
-    display: none;
-    align-self: center;
+    border: 2px solid #ffffff;
 }
